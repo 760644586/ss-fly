@@ -1,22 +1,13 @@
-removed
 
-安心做affman
+1
+git clone -b master https://github.com/760644586/ss-fly
 
-## 交流群
-flyzy小站交流群：http://t.me/flyzyxiaozhan
+ss-fly/ss-fly.sh -i QQQ@www@@ 80
 
-搬瓦工用户交流群：https://t.me/banwagongusers
+ss-fly/ss-fly.sh -bbr
 
-## 推荐的VPS
-### 国外VPS
-[Vultr优惠网](https://www.vultryhw.cn/)
+sysctl net.ipv4.tcp_available_congestion_control
 
-[搬瓦工优惠网](https://www.bwgyhw.cn/)
-
-### 国内VPS
-[阿里云优惠网](https://www.aliyunyhw.com)
-
-[腾讯云优惠网](https://www.tengxunyunyhw.com)
-
-### VPS信息汇总
-[VPS GO](https://www.vpsgo.com)
+停止ss服务：ssserver -c /etc/shadowsocks.json -d stop
+启动ss服务：ssserver -c /etc/shadowsocks.json -d start
+重启ss服务：ssserver -c /etc/shadowsocks.json -d restart
