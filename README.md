@@ -1,5 +1,7 @@
 git clone -b master https://github.com/760644586/ss-fly
 
+vim /etc/shadowsocks.json
+
 ss-fly/ss-fly.sh -i QQQ@www@@ 80
 
 ss-fly/ss-fly.sh -bbr
